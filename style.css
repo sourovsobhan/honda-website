@@ -1,0 +1,114 @@
+/* google-font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+header {
+  background: #264653;
+}
+
+/* honda header section style */
+
+.honda-content span {
+  color: #fff;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.honda-content h1 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+}
+.honda-content p {
+  color: #e0e0e0;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+.button-color {
+  background: #e76f51;
+  color: white;
+}
+
+/* feautures section styles */
+
+.features-heading h1 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+}
+
+.features-heading p {
+  color: #e76f51;
+}
+
+.feautures-img img {
+  width: 288px;
+  height: 243px;
+}
+.grey-img img {
+  filter: grayscale(100%);
+}
+/* .honda-img img {
+  width: 600px;
+  height: 447px;
+  margin-right: 80px;
+} */
+/* client section */
+.client-heading h1 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+}
+.client-heading .head-1 {
+  color: #0a0826;
+}
+
+.client-heading .head-2 {
+  color: #e76f51;
+}
+.fas {
+  color: #e76f51;
+}
+.card-last h5 {
+  color: #23a6f0;
+}
+.card-last h6 {
+  color: #252b42;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/*---------------mobile devices responsive --------------- */
+
+@media only screen and (max-width: 688px) {
+  .honda-content h1 {
+    font-size: 28px;
+    line-height: 54px;
+  }
+
+  .honda-img img {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .features-heading h1 {
+    font-size: 36px;
+  }
+  .feautures-img img {
+    text-align: center;
+    margin: auto;
+  }
+  .client-heading h1 {
+    font-size: 36px;
+    line-height: 54px;
+  }
+}
